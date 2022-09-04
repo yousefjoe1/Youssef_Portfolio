@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/Youssef_Portfolio/static/css/main.d36fae59.css",
+    "main.js": "/Youssef_Portfolio/static/js/main.b65bfcc9.js",
+    "static/media/weatherapp.png": "/Youssef_Portfolio/static/media/weatherapp.f24cbb27fd2de2d932d3.png",
+    "static/media/Travel_advisor_project.png": "/Youssef_Portfolio/static/media/Travel_advisor_project.150e54f0cfca6221492d.png",
+    "static/media/veg-cart.png": "/Youssef_Portfolio/static/media/veg-cart.7ba748bcc079ba3d51e9.png",
+    "static/media/store.png": "/Youssef_Portfolio/static/media/store.44923f1cd772f272882a.png",
+    "static/media/first-work-freelance.png": "/Youssef_Portfolio/static/media/first-work-freelance.0257b7daccea61df8518.png",
+    "static/media/homebg.jpg": "/Youssef_Portfolio/static/media/homebg.d1475b1f3a4f0d37ba26.jpg",
+    "static/media/me.png": "/Youssef_Portfolio/static/media/me.2df38102c23e3e4e2356.png",
+    "static/media/temp1.png": "/Youssef_Portfolio/static/media/temp1.7bf39427e96272e002db.png",
+    "static/media/linkedin.png": "/Youssef_Portfolio/static/media/linkedin.65fc7ad37b137b20d8c8.png",
+    "static/media/discord.png": "/Youssef_Portfolio/static/media/discord.4f668b69739d9bb798f5.png",
+    "static/media/crypto_project.png": "/Youssef_Portfolio/static/media/crypto_project.8395c992f5b5df54b02a.png",
+    "static/media/questions.png": "/Youssef_Portfolio/static/media/questions.06a0a49726bf03e302e8.png",
+    "static/media/todo.png": "/Youssef_Portfolio/static/media/todo.68eca3245b95226093d3.png",
+    "static/media/wordgame.png": "/Youssef_Portfolio/static/media/wordgame.45dbfd12ee946f16fb17.png",
+    "static/media/advice-generator.png": "/Youssef_Portfolio/static/media/advice-generator.6fb90875503dc008677f.png",
+    "index.html": "/Youssef_Portfolio/index.html",
+    "main.d36fae59.css.map": "/Youssef_Portfolio/static/css/main.d36fae59.css.map",
+    "main.b65bfcc9.js.map": "/Youssef_Portfolio/static/js/main.b65bfcc9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d36fae59.css",
+    "static/js/main.b65bfcc9.js"
+  ]
+}
