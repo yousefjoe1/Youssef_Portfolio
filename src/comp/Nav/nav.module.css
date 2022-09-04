@@ -1,0 +1,75 @@
+nav {
+    overflow: hidden;
+}
+
+.navLinks_wrapper {
+    width: 230px;
+    height: 230px;
+    max-width: 430px;
+    max-height: 430px;
+    border-radius: 50%;
+    background: #485563;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #29323c, #485563);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #29323c, #485563); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: all 1s ease;
+}
+
+.about_certificates {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    align-items: center;
+}
+
+.navLinks_wrapper div {
+    transition: all 1s ease;
+}
+
+.pointer_link {
+    width: 130px;
+    height: 40px;
+    border: 2px solid white;
+    /* top: 22%; */
+    top: 15%;
+    left: -5px;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 1;
+    border-radius: 8px;
+    text-align: center;
+    display: none;
+    transition: all 1s ease;
+}
+
+nav a {
+    color: aliceblue;
+    font-weight: 600;
+    font-size: 19px;
+    transition: all 1s ease;
+}
+
+nav a:hover {
+    border-bottom:  3px solid black;
+}
+
+.skills ,.projects{
+    width: 70px;
+}
+
+@media (max-width:500px) {
+    .navLinks_wrapper {
+        width: 250px;
+        height: 250px;
+    }
+
+    .about_certificates img {
+        width: 50px;
+    }
+
+    
+}

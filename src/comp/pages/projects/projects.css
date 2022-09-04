@@ -1,0 +1,64 @@
+.projects-section {
+    min-height: 100vh;
+    background: #616161;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #9bc5c3, #616161);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #9bc5c3, #616161); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+padding: 10px;
+}
+
+/* .projects-section h1 {
+
+} */
+
+.freeelance-single-project {
+    max-width: 400px;
+    height: 300px;
+    background-color: transparent;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px floralwhite,-2px -2px 2px floralwhite;
+    overflow: hidden;
+}
+
+.freeelance-single-project img {
+    object-fit: contain;
+    width: 100%;
+}
+
+.freeelance-single-project .info-hiding {
+    transform: translateX(350px);
+    transition: all 1s ease;
+}
+
+.freeelance-single-project:hover .info-hiding {
+    transform: translateX(0px);
+    background: #4b6cb7;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #182848, #4b6cb7);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #182848, #4b6cb7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color:whitesmoke;
+    font-weight: bold;
+    height: 100%;
+}
+
+.single-personal-projects {
+    max-width: 400px;
+    height: 300px;
+    background-color: transparent;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px floralwhite,-2px -2px 2px floralwhite;
+    overflow: hidden;
+}
+
+.single-personal-projects img{
+    object-fit: contain;
+    width: 100%;
+}
+
+.single-personal-projects .info-hiding{
+    transform: translateX(350px);
+    transition: all 1s ease;
+}
+
+.single-personal-projects:hover .info-hiding{
+    transform: translateX(0px);
+    transition: all 1s ease;
+}
