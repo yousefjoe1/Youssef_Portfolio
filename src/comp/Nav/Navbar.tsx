@@ -26,7 +26,14 @@ switch(linkname) {
     setRotatval('skills-rotate');
     setTimeout(() => {
       navigate('/skills')
+      window.scrollTo(
+        {
+          top: 700,
+          left: 0,
+          behavior: 'smooth'
+        })
     }, 1000);
+
     break;
     
     case 'about':
@@ -53,6 +60,12 @@ switch(linkname) {
       }
       setTimeout(() => {
         navigate('/certificates')
+        window.scrollTo(
+          {
+            top: 700,
+            left: 0,
+            behavior: 'smooth'
+          })
     }, 1000);
 
     break;

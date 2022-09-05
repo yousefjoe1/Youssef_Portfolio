@@ -1,0 +1,6 @@
+@media (max-width:500px) {
+    .certificates-container div {
+        width: 300px!important;
+        height: 300px!important;
+    }
+}
