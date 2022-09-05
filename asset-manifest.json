@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Youssef_Portfolio/static/css/main.e4030473.css",
+    "main.css": "/Youssef_Portfolio/static/css/main.13be4075.css",
     "main.js": "/Youssef_Portfolio/static/js/main.dd84dab1.js",
     "static/media/weatherapp.png": "/Youssef_Portfolio/static/media/weatherapp.f24cbb27fd2de2d932d3.png",
     "static/media/amazontemp.png": "/Youssef_Portfolio/static/media/amazontemp.65af4a21a6a1d6280ce6.png",
@@ -28,11 +28,11 @@
     "static/media/wordgame.png": "/Youssef_Portfolio/static/media/wordgame.45dbfd12ee946f16fb17.png",
     "static/media/advice-generator.png": "/Youssef_Portfolio/static/media/advice-generator.6fb90875503dc008677f.png",
     "index.html": "/Youssef_Portfolio/index.html",
-    "main.e4030473.css.map": "/Youssef_Portfolio/static/css/main.e4030473.css.map",
+    "main.13be4075.css.map": "/Youssef_Portfolio/static/css/main.13be4075.css.map",
     "main.dd84dab1.js.map": "/Youssef_Portfolio/static/js/main.dd84dab1.js.map"
   },
   "entrypoints": [
-    "static/css/main.e4030473.css",
+    "static/css/main.13be4075.css",
     "static/js/main.dd84dab1.js"
   ]
 }
