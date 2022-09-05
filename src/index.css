@@ -285,7 +285,7 @@ nav a {
 .arrow-pointer-animation {
   animation-name: colorfullarrow;
   animation-duration: 2s;
-  color: #454041;
+  color: #dbdbdb;
   animation-iteration-count: infinite;
 }
 
