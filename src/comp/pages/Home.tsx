@@ -24,8 +24,8 @@ const Home = () => {
             <h3 className='text-end font-bold'>I am learning and coding every day.</h3>
 
             <div className="social-links flex mt-1 items-center justify-around">
-              <a href=''> <BsLinkedin style={{fontSize:'30px',color:'#0a66c2'}} /> </a>
-              <a href=''><DiGithubBadge className='text-white' style={{fontSize:'40px'}} /></a>
+              <a href='https://www.linkedin.com/in/youssefmahmoud1/' target={'_blank'}> <BsLinkedin style={{fontSize:'30px',color:'#0a66c2'}} /> </a>
+              <a href='https://github.com/yousefjoe1' target={'_blank'}><DiGithubBadge className='text-white' style={{fontSize:'40px'}} /></a>
             </div>
 
             <h2 className='text-center font-bold text-white' style={{fontSize:'20px'}}>I am a hard working developer and I am addictid to learn and code every day.</h2>
