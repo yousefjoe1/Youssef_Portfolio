@@ -23,6 +23,7 @@ import mem_game from './Imgs/mem-game.png'
 import shoppingcart from './Imgs/shoppingcart.png'
 import productlandingpage from './Imgs/product-landingpage.png'
 import amazoneclone from './Imgs/amazontemp.png'
+import outlet from './Imgs/outlet.png'
 
 const Projects = () => {
 
@@ -31,8 +32,34 @@ const Projects = () => {
     <section className='projects-section relative' >
 
       <h1 className='text-center my-4 text-slate-50 font-bold' style={{fontSize:'23px',borderBottom:'1px solid white'}}>Projects</h1>
-      <h2 className='text-center text-slate-200 font-bold mb-3 mt-3' style={{fontSize:'20px'}}>FreeLance Projects</h2>
+
+      <h1 className='text-center my-4 text-black bg-slate-300 font-bold' style={{fontSize:'23px',borderBottom:'1px solid white'}}>Projects in the company</h1>
+      <div className="projects_in_company">
+
+      <div className="single-personal-projects">
+
+        <div className="project-img-container"  style={{width:'100%',height:'60%'}}>
+          <img  style={{width:'100%',height:'100%'}} src={outlet} alt="" />
+        </div>
+          
+          <div className="info-hiding text-center">
+            <h1>Mansoura Outlet</h1>
+            <h2>HTML + CSS + JAVASCRIPT + REACT.JS + 
+                TAILWIND_CSS</h2>
+                <br />
+                <a
+                  target="_blank"
+                  href="https://abc-mansoura.com/"
+                >
+                  Link<span className='flex justify-center'><AiOutlineGlobal style={{fontSize:'20px',}} /></span>
+                </a>
+          </div>
+      </div>
+      </div>
+
+      <h2 className='text-center font-bold mb-3 mt-3 bg-slate-300 text-black' style={{fontSize:'20px'}}>FreeLance Projects</h2>
       <div className="freelance-projects-container relative flex justify-center">
+
 
         <div className='freeelance-single-project text-center'>
           <img src={freelance1} alt="" />

@@ -1,17 +1,11 @@
 .skills-section {
     height: 100vh;
-    background: #1CD8D2;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #93EDC7, #1CD8D2);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #93EDC7, #1CD8D2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+    background-color: rgb(100, 149, 237, .5);
 }
 
 .skills-container-animation {
     width: 400px;
     height: 400px;
-    /* background: #5C258D;
-    background: -webkit-linear-gradient(to right, #4389A2, #5C258D);  
-    background: linear-gradient(to right, #4389A2, #5C258D);  */
     border: 2px solid white;
     border-radius: 50%;
     margin: 5px auto;
