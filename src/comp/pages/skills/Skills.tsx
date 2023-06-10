@@ -9,7 +9,7 @@ import { DiJsBadge } from "react-icons/di";
 import { DiSass } from "react-icons/di";
 import { DiReact } from "react-icons/di";
 import { DiGit } from "react-icons/di";
-import { DiFirebase } from "react-icons/di";
+import { SiTailwindcss } from "react-icons/si";
 
 const Skills = () => {
   return (
@@ -62,8 +62,8 @@ const Skills = () => {
           </div>
 
           <div className='' >
-            <DiFirebase className='' style={{fontSize:'25px'}} />
-            <p>FIREBASE</p>
+            <SiTailwindcss className='' style={{fontSize:'25px'}} />
+            <p className='text-center'>TAILWIND CSS</p>
           </div>
         </div>
 

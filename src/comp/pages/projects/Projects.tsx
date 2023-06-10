@@ -1,5 +1,3 @@
-import React from 'react'
-
 import './projects.css'
 
 import { AiOutlineGlobal } from 'react-icons/ai';
@@ -29,20 +27,20 @@ const Projects = () => {
 
 
   return (
-    <section className='projects-section relative' >
+    <section className='relative projects-section' >
 
-      <h1 className='text-center my-4 text-slate-50 font-bold' style={{fontSize:'23px',borderBottom:'1px solid white'}}>Projects</h1>
+      <h1 className='my-4 font-bold text-center text-slate-50' style={{fontSize:'23px',borderBottom:'1px solid white'}}>Projects</h1>
 
-      <h1 className='text-center my-4 text-black bg-slate-300 font-bold' style={{fontSize:'23px',borderBottom:'1px solid white'}}>Projects in the company</h1>
-      <div className="projects_in_company">
+      {/* <h1 className='my-4 font-bold text-center text-black bg-slate-300' style={{fontSize:'23px',borderBottom:'1px solid white'}}>Projects in the company</h1> */}
+      <div className="flex flex-wrap justify-center mx-auto personal-projects-container gap-9" style={{width:'90%'}}>
 
       <div className="single-personal-projects">
 
-        <div className="project-img-container"  style={{width:'100%',height:'60%'}}>
+        <div className="overflow-hidden project-img-container"  style={{width:'100%',height:'60%'}}>
           <img  style={{width:'100%',height:'100%'}} src={outlet} alt="" />
         </div>
           
-          <div className="info-hiding text-center">
+          <div className="text-center info-hiding">
             <h1>Mansoura Outlet</h1>
             <h2>HTML + CSS + JAVASCRIPT + REACT.JS + 
                 TAILWIND_CSS</h2>
@@ -54,19 +52,41 @@ const Projects = () => {
                   Link<span className='flex justify-center'><AiOutlineGlobal style={{fontSize:'20px',}} /></span>
                 </a>
           </div>
+          
+      </div>
+
+      <div className="single-personal-projects">
+
+        <div className="overflow-hidden project-img-container"  style={{width:'100%',height:'60%'}}>
+          <img  style={{width:'100%',height:'100%'}} src={outlet} alt="" />
+        </div>
+          
+          <div className="text-center info-hiding">
+            <h1>Mansoura Outlet</h1>
+            <h2>HTML + CSS + JAVASCRIPT + REACT.JS + 
+                TAILWIND_CSS</h2>
+                <br />
+                <a
+                  target="_blank"
+                  href="https://abc-mansoura.com/"
+                >
+                  Link<span className='flex justify-center'><AiOutlineGlobal style={{fontSize:'20px',}} /></span>
+                </a>
+          </div>
+          
       </div>
       </div>
 
-      <h2 className='text-center font-bold mb-3 mt-3 bg-slate-300 text-black' style={{fontSize:'20px'}}>FreeLance Projects</h2>
-      <div className="freelance-projects-container relative flex justify-center">
+      <h2 className='mt-3 mb-3 font-bold text-center text-black bg-slate-300' style={{fontSize:'20px'}}>FreeLance Projects</h2>
+      <div className="relative flex justify-center freelance-projects-container">
 
 
-        <div className='freeelance-single-project text-center'>
+        <div className='text-center freeelance-single-project'>
           <img src={freelance1} alt="" />
           <div className="info-hiding">
             <h1>Dgym Project</h1>
             <h2>HTML + CSS + BOOTSTRAP + JAVASCRIPT</h2>
-            <div className='flex justify-between dgymlinks flex-wrap mt-4'>
+            <div className='flex flex-wrap justify-between mt-4 dgymlinks'>
             <a
                   target="_blank"
                   href="https://digitalgym.in/v1/app/pages/dashboards/default.html"
@@ -133,15 +153,15 @@ const Projects = () => {
         </div>
       </div>
 
-      <h1 className='text-center my-5 text-slate-50 font-bold' style={{fontSize:'23px',borderBottom:'1px solid white'}}>Personal Projects</h1>
+      <h1 className='my-5 font-bold text-center text-slate-50' style={{fontSize:'23px',borderBottom:'1px solid white'}}>Personal Projects</h1>
 
-      <div className="personal-projects-container flex flex-wrap justify-center mx-auto gap-9" style={{width:'90%'}}>
+      <div className="flex flex-wrap justify-center mx-auto personal-projects-container gap-9" style={{width:'90%'}}>
 
         <div className="single-personal-projects">
           <div className="project-img-container"  style={{width:'100%',height:'60%'}}>
             <img  style={{width:'100%',height:'100%'}} src={questionspro} alt="" />
           </div>
-          <div className="info-hiding text-center">
+          <div className="text-center info-hiding">
             <h1>Questions Game</h1>
             <h2>HTML + CSS + JAVASCRIPT + REACT + MATERIAL-UI + FIREBASE + REDUX</h2>
             <br />
@@ -155,7 +175,7 @@ const Projects = () => {
         <div className="project-img-container" style={{width:'100%',height:'60%'}} >
           <img style={{width:'100%',height:'100%'}}  src={crypto_project} alt="" />
         </div>
-          <div className="info-hiding text-center">
+          <div className="text-center info-hiding">
             <h1>Crypto App</h1>
             <h2>HTML + CSS + JAVASCRIPT + REACT + Anti Design</h2>
             <br />
@@ -173,7 +193,7 @@ const Projects = () => {
           <img  style={{width:'100%',height:'100%'}} src={amazoneclone} alt="" />
         </div>
 
-          <div className="info-hiding text-center">
+          <div className="text-center info-hiding">
             <h1>Amazon Clone</h1>
             <h2>HTML + CSS + JAVASCRIPT + REACT.JS</h2>
             <br />
@@ -192,7 +212,7 @@ const Projects = () => {
           <img  style={{width:'100%',height:'100%'}} src={mem_game} alt="" />
         </div>
           
-          <div className="info-hiding text-center">
+          <div className="text-center info-hiding">
             <h1>Memeory Game</h1>
             <h2>HTML + CSS + JAVASCRIPT + REACT.JS + REACT-TYPESCRIPT +
                 TAILWIND_CSS</h2>
@@ -210,7 +230,7 @@ const Projects = () => {
         <div className="project-img-container"  style={{width:'100%',height:'60%'}}>
           <img  style={{width:'100%',height:'100%'}} src={productlandingpage} alt="" />
         </div>
-          <div className="info-hiding text-center">
+          <div className="text-center info-hiding">
             <h1>Product Landing page</h1>
             <h2>HTML + CSS + JAVASCRIPT + REACT.JS + REACT-TYPESCRIPT +
                 TAILWIND_CSS</h2>
@@ -228,7 +248,7 @@ const Projects = () => {
         <div className="project-img-container"  style={{width:'100%',height:'60%'}}>
           <img  style={{width:'100%',height:'100%'}} src={calc} alt="" />
         </div>
-          <div className="info-hiding text-center">
+          <div className="text-center info-hiding">
             <h1>Calculaotr</h1>
             <h2>HTML + CSS + JAVASCRIPT + REACT.JS + TYPESCRIPT + TAILWIND CSS</h2><br />
             <a
@@ -245,7 +265,7 @@ const Projects = () => {
         <div className="project-img-container"  style={{width:'100%',height:'60%'}}>
           <img  style={{width:'100%',height:'100%'}} src={linkedin} alt="" />
         </div>
-          <div className="info-hiding text-center">
+          <div className="text-center info-hiding">
             <h1>LinkedIn Clone</h1>
             <h2>HTML + CSS + JAVASCRIPT + REACT.JS + REACT_BOOTSTRAP + BOOTSTRAP</h2><br />
             <a
@@ -261,7 +281,7 @@ const Projects = () => {
         <div className="project-img-container"  style={{width:'100%',height:'60%'}}>
           <img  style={{width:'100%',height:'100%'}} src={discord} alt="" />
         </div>
-          <div className="info-hiding text-center">
+          <div className="text-center info-hiding">
             <h1>Discord Clone</h1>
             <h2>HTML + CSS + JAVASCRIPT + REACT.JS + REACT_BOOTSTRAP + BOOTSTRAP</h2><br />
             <a
@@ -277,7 +297,7 @@ const Projects = () => {
         <div className="project-img-container"  style={{width:'100%',height:'60%'}}>
           <img  style={{width:'100%',height:'100%'}} src={shoppingcart} alt="" />
         </div>
-          <div className="info-hiding text-center">
+          <div className="text-center info-hiding">
             <h1>Food Shopping Cart</h1>
             <h2>HTML + CSS + JAVASCRIPT + BOOTSTRAP + REACT.JS</h2><br />
             <a
@@ -293,7 +313,7 @@ const Projects = () => {
         <div className="project-img-container"  style={{width:'100%',height:'60%'}}>
           <img  style={{width:'100%',height:'100%'}} src={store} alt="" />
         </div>
-          <div className="info-hiding text-center">
+          <div className="text-center info-hiding">
             <h1>Store</h1>
             <h2>HTML + CSS + BOOTSTRAP + JAVASCRIPT</h2><br />
             <a
@@ -309,7 +329,7 @@ const Projects = () => {
         <div className="project-img-container"  style={{width:'100%',height:'60%'}}>
           <img  style={{width:'100%',height:'100%'}} src={Travel_advisor_project} alt="" />
         </div>
-          <div className="info-hiding text-center">
+          <div className="text-center info-hiding">
             <h1>Travel Advisor</h1>
             <h2>HTML + CSS + JAVASCRIPT + REACT + GOOGLE MAPS + MATERIAL-UI</h2><br />
             <a
@@ -325,7 +345,7 @@ const Projects = () => {
         <div className="project-img-container"  style={{width:'100%',height:'60%'}}>
           <img  style={{width:'100%',height:'100%'}} src={wordgame} alt="" />
         </div>
-          <div className="info-hiding text-center">
+          <div className="text-center info-hiding">
             <h1>Words Game</h1>
             <h2>HTML + CSS + JAVASCRIPT + REACT.JS + TYPESCRIPT + TAILWIND CSS</h2><br />
             <a
@@ -341,7 +361,7 @@ const Projects = () => {
         <div className="project-img-container"  style={{width:'100%',height:'60%'}}>
           <img  style={{width:'100%',height:'100%'}} src={veg_cart} alt="" />
         </div>
-          <div className="info-hiding text-center">
+          <div className="text-center info-hiding">
             <h1>Vegetables Shopping Cart</h1>
             <h2>HTML + CSS + JAVASCRIPT + REACT.JS + REDUX/TOOLKIT</h2><br />
             <a
@@ -357,7 +377,7 @@ const Projects = () => {
         <div className="project-img-container"  style={{width:'100%',height:'60%'}}>
           <img  style={{width:'100%',height:'100%'}} src={weatherapp} alt="" />
         </div>
-          <div className="info-hiding text-center">
+          <div className="text-center info-hiding">
             <h1>Weather App</h1>
             <h2>HTML + CSS + JAVASCRIPT</h2><br />
             <a
@@ -373,7 +393,7 @@ const Projects = () => {
         <div className="project-img-container"  style={{width:'100%',height:'60%'}}>
           <img  style={{width:'100%',height:'100%'}} src={temp1} alt="" />
         </div>
-          <div className="info-hiding text-center">
+          <div className="text-center info-hiding">
             <h1>Landing page</h1>
             <h2>HTML + CSS + JAVASCRIPT + BOOTSTRAP + REACT.JS</h2><br />
             <a href="https://yousefjoe1.github.io/temp-2n/#/"
@@ -388,7 +408,7 @@ const Projects = () => {
         <div className="project-img-container"  style={{width:'100%',height:'60%'}}>
           <img  style={{width:'100%',height:'100%'}} src={advice_generator} alt="" />
         </div>
-          <div className="info-hiding text-center">
+          <div className="text-center info-hiding">
             <h1>Advice Generator</h1>
             <h2>HTML + CSS + JAVASCRIPT + REACT.JS</h2><br />
             <a
@@ -404,7 +424,7 @@ const Projects = () => {
         <div className="project-img-container"  style={{width:'100%',height:'60%'}}>
           <img  style={{width:'100%',height:'100%'}} src={todo} alt="" />
         </div>
-          <div className="info-hiding text-center">
+          <div className="text-center info-hiding">
             <h1>Todo List</h1>
             <h2>HTML + CSS + JAVASCRIPT + REACT.JS + TYPESCRIPT + TAILWIND CSS</h2><br />
             <a
