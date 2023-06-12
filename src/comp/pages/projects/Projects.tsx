@@ -48,7 +48,7 @@ const Projects = () => {
                 <br />
                 <a
                   target="_blank"
-                  href="https://abc-mansoura.com/"
+                  href="https://sharek-eg.com/"
                 >
                   Link<span className='flex justify-center'><AiOutlineGlobal style={{fontSize:'20px',}} /></span>
                 </a>
