@@ -22,6 +22,8 @@ import shoppingcart from './Imgs/shoppingcart.png'
 import productlandingpage from './Imgs/product-landingpage.png'
 import amazoneclone from './Imgs/amazontemp.png'
 import outlet from './Imgs/outlet.png'
+import sharek from './Imgs/sharek.png'
+
 
 const Projects = () => {
 
@@ -31,17 +33,16 @@ const Projects = () => {
 
       <h1 className='my-4 font-bold text-center text-slate-50' style={{fontSize:'23px',borderBottom:'1px solid white'}}>Projects</h1>
 
-      {/* <h1 className='my-4 font-bold text-center text-black bg-slate-300' style={{fontSize:'23px',borderBottom:'1px solid white'}}>Projects in the company</h1> */}
       <div className="flex flex-wrap justify-center mx-auto personal-projects-container gap-9" style={{width:'90%'}}>
 
       <div className="single-personal-projects">
 
         <div className="overflow-hidden project-img-container"  style={{width:'100%',height:'60%'}}>
-          <img  style={{width:'100%',height:'100%'}} src={outlet} alt="" />
+          <img  style={{width:'100%',height:'100%'}} src={sharek} alt="" />
         </div>
           
           <div className="text-center info-hiding">
-            <h1>Mansoura Outlet</h1>
+            <h1>Sharek</h1>
             <h2>HTML + CSS + JAVASCRIPT + REACT.JS + 
                 TAILWIND_CSS</h2>
                 <br />
