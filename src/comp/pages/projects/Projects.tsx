@@ -23,6 +23,8 @@ import productlandingpage from './Imgs/product-landingpage.png'
 import amazoneclone from './Imgs/amazontemp.png'
 import outlet from './Imgs/outlet.png'
 import sharek from './Imgs/sharek.png'
+import eskan from './Imgs/eskan.png'
+import aboTaleb from './Imgs/abo-taleb.png'
 
 
 const Projects = () => {
@@ -34,6 +36,48 @@ const Projects = () => {
       <h1 className='my-4 font-bold text-center text-slate-50' style={{fontSize:'23px',borderBottom:'1px solid white'}}>Projects</h1>
 
       <div className="flex flex-wrap justify-center mx-auto personal-projects-container gap-9" style={{width:'90%'}}>
+
+      <div className="single-personal-projects">
+
+        <div className="overflow-hidden project-img-container"  style={{width:'100%',height:'60%'}}>
+          <img  style={{width:'100%',height:'100%'}} src={aboTaleb} alt="" />
+        </div>
+          
+          <div className="text-center info-hiding">
+            <h1>Abo Taleb</h1>
+            <h2>HTML + CSS + JAVASCRIPT + REACT.JS + 
+                TAILWIND_CSS</h2>
+                <br />
+                <a
+                  target="_blank"
+                  href="https://sirtz.com/"
+                >
+                  Link<span className='flex justify-center'><AiOutlineGlobal style={{fontSize:'20px',}} /></span>
+                </a>
+          </div>
+          
+      </div>
+
+      <div className="single-personal-projects">
+
+        <div className="overflow-hidden project-img-container"  style={{width:'100%',height:'60%'}}>
+          <img  style={{width:'100%',height:'100%'}} src={eskan} alt="" />
+        </div>
+          
+          <div className="text-center info-hiding">
+            <h1>Eskan El Mansoura</h1>
+            <h2>HTML + CSS + JAVASCRIPT + REACT.JS + 
+                TAILWIND_CSS</h2>
+                <br />
+                <a
+                  target="_blank"
+                  href="https://mansoura-eco-build.com/"
+                >
+                  Link<span className='flex justify-center'><AiOutlineGlobal style={{fontSize:'20px',}} /></span>
+                </a>
+          </div>
+          
+      </div>
 
       <div className="single-personal-projects">
 
@@ -76,6 +120,10 @@ const Projects = () => {
           </div>
           
       </div>
+      
+
+
+
       </div>
 
       <h2 className='mt-3 mb-3 font-bold text-center text-black bg-slate-300' style={{fontSize:'20px'}}>FreeLance Projects</h2>
@@ -152,6 +200,9 @@ const Projects = () => {
             </div>
           </div>
         </div>
+
+
+
       </div>
 
       <h1 className='my-5 font-bold text-center text-slate-50' style={{fontSize:'23px',borderBottom:'1px solid white'}}>Personal Projects</h1>
