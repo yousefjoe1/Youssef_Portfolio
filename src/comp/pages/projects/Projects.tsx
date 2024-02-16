@@ -33,7 +33,7 @@ const Projects = () => {
   return (
     <section className='relative projects-section' >
 
-      <h1 className='my-4 font-bold text-center text-slate-50' style={{fontSize:'23px',borderBottom:'1px solid white'}}>Projects</h1>
+      <h1 className='my-4 mb-8 font-bold text-center text-slate-50' style={{fontSize:'30px',borderBottom:'1px solid white'}}>Projects</h1>
 
       <div className="flex flex-wrap justify-center mx-auto personal-projects-container gap-9" style={{width:'90%'}}>
 
