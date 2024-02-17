@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Youssef_Portfolio/static/css/main.ecc3504c.css",
-    "main.js": "/Youssef_Portfolio/static/js/main.667034f1.js",
+    "main.css": "/Youssef_Portfolio/static/css/main.59729783.css",
+    "main.js": "/Youssef_Portfolio/static/js/main.2320c6a1.js",
     "static/media/sharek.png": "/Youssef_Portfolio/static/media/sharek.5afbc7ddc2e74629d0d5.png",
     "static/media/weatherapp.png": "/Youssef_Portfolio/static/media/weatherapp.f24cbb27fd2de2d932d3.png",
     "static/media/amazontemp.png": "/Youssef_Portfolio/static/media/amazontemp.65af4a21a6a1d6280ce6.png",
@@ -12,7 +12,6 @@
     "static/media/veg-cart.png": "/Youssef_Portfolio/static/media/veg-cart.7ba748bcc079ba3d51e9.png",
     "static/media/store.png": "/Youssef_Portfolio/static/media/store.44923f1cd772f272882a.png",
     "static/media/first-work-freelance.png": "/Youssef_Portfolio/static/media/first-work-freelance.0257b7daccea61df8518.png",
-    "static/media/homebg.jpg": "/Youssef_Portfolio/static/media/homebg.d1475b1f3a4f0d37ba26.jpg",
     "static/media/me.png": "/Youssef_Portfolio/static/media/me.2df38102c23e3e4e2356.png",
     "static/media/temp1.png": "/Youssef_Portfolio/static/media/temp1.7bf39427e96272e002db.png",
     "static/media/c4.png": "/Youssef_Portfolio/static/media/c4.bb096284f522e58e7128.png",
@@ -23,6 +22,7 @@
     "static/media/c6.png": "/Youssef_Portfolio/static/media/c6.9a8dd5b622e8904e8f62.png",
     "static/media/linkedin.png": "/Youssef_Portfolio/static/media/linkedin.65fc7ad37b137b20d8c8.png",
     "static/media/discord.png": "/Youssef_Portfolio/static/media/discord.4f668b69739d9bb798f5.png",
+    "static/media/Me.jpg": "/Youssef_Portfolio/static/media/Me.5dbfd2d215b1aac4254e.jpg",
     "static/media/c2.png": "/Youssef_Portfolio/static/media/c2.9d62bb1dbba4ffaf848c.png",
     "static/media/c3.png": "/Youssef_Portfolio/static/media/c3.a38608188f23fee49eaa.png",
     "static/media/crypto_project.png": "/Youssef_Portfolio/static/media/crypto_project.8395c992f5b5df54b02a.png",
@@ -32,11 +32,11 @@
     "static/media/wordgame.png": "/Youssef_Portfolio/static/media/wordgame.45dbfd12ee946f16fb17.png",
     "static/media/advice-generator.png": "/Youssef_Portfolio/static/media/advice-generator.6fb90875503dc008677f.png",
     "index.html": "/Youssef_Portfolio/index.html",
-    "main.ecc3504c.css.map": "/Youssef_Portfolio/static/css/main.ecc3504c.css.map",
-    "main.667034f1.js.map": "/Youssef_Portfolio/static/js/main.667034f1.js.map"
+    "main.59729783.css.map": "/Youssef_Portfolio/static/css/main.59729783.css.map",
+    "main.2320c6a1.js.map": "/Youssef_Portfolio/static/js/main.2320c6a1.js.map"
   },
   "entrypoints": [
-    "static/css/main.ecc3504c.css",
-    "static/js/main.667034f1.js"
+    "static/css/main.59729783.css",
+    "static/js/main.2320c6a1.js"
   ]
 }
