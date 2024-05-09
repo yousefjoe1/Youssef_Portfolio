@@ -8,13 +8,16 @@ nav {
     max-width: 430px;
     max-height: 430px;
     border-radius: 50%;
-    background: #485563;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #29323c, #485563);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #29323c, #485563); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    /* background: #485563; 
+    background: -webkit-linear-gradient(to right, #29323c, #485563);  
+    background: linear-gradient(to right, #29323c, #485563);  */
     display: flex;
     justify-content: space-between;
     align-items: center;
     transition: all 1s ease;
+    background: url('https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png') no-repeat;
+    background-position: center;
+    background-size: contain;
 }
 
 .about_certificates {
@@ -53,9 +56,9 @@ nav a {
     transition: all 1s ease;
 }
 
-nav a:hover {
+/* nav a:hover {
     border-bottom:  3px solid black;
-}
+} */
 
 .skills ,.projects{
     width: 70px;
