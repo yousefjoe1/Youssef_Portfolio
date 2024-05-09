@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from 'react'
+import { useNavigate } from 'react-router-dom'
 
 import { AiFillCaretDown } from 'react-icons/ai';
 
 import st from './nav.module.css'
 
-import meimg from './me.png'
-import { useNavigate } from 'react-router-dom'
+import meim from '../../Me.jpg'
 
 const Navbar = () => {
 const [rotateval,setRotatval] = useState<string>('about-rotate')
@@ -134,7 +134,7 @@ useEffect(() => {
           </div>
 
           <div className="my_img">
-            <img className='w-40 rounded-md' src={meimg} alt="" />
+            <img className='w-40 rounded-md' src={meim} alt="" />
           </div>
 
           <div className={`${st.certificates} certificate-div`}>
