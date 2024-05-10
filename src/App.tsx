@@ -10,6 +10,7 @@ import Skills from './comp/pages/skills/Skills';
 
 const App:React.FC = () => {
 
+console.log('yousef');
 
   return (
 
