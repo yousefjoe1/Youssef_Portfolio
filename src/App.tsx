@@ -7,13 +7,9 @@ import Home from './comp/pages/Home';
 import Projects from './comp/pages/projects/Projects';
 import Skills from './comp/pages/skills/Skills';
 
-
 const App:React.FC = () => {
 
-console.log('yousef');
-
   return (
-
 
     <div className='app'>
        <Navbar />

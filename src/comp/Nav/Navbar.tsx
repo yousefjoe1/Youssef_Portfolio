@@ -138,7 +138,7 @@ useEffect(() => {
           </div>
 
           <div className="my_img">
-            <img className='w-40 rounded-md' src={meim} alt="" />
+            {/* <img className='w-40 rounded-md' src={meim} alt="" /> */}
           </div>
 
           <div className={`${st.certificates} certificate-div`}>
