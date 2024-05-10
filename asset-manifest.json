@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/Youssef_Portfolio/static/css/main.9fc54a86.css",
+    "main.js": "/Youssef_Portfolio/static/js/main.3a0282f6.js",
+    "static/media/sharek.png": "/Youssef_Portfolio/static/media/sharek.5afbc7ddc2e74629d0d5.png",
+    "static/media/weatherapp.png": "/Youssef_Portfolio/static/media/weatherapp.f24cbb27fd2de2d932d3.png",
+    "static/media/amazontemp.png": "/Youssef_Portfolio/static/media/amazontemp.65af4a21a6a1d6280ce6.png",
+    "static/media/Travel_advisor_project.png": "/Youssef_Portfolio/static/media/Travel_advisor_project.150e54f0cfca6221492d.png",
+    "static/media/eskan.png": "/Youssef_Portfolio/static/media/eskan.c9aaea1f4287d69dafc7.png",
+    "static/media/c5.png": "/Youssef_Portfolio/static/media/c5.a789081f12224dad7b24.png",
+    "static/media/outlet.png": "/Youssef_Portfolio/static/media/outlet.9b45f2d110725cec9b09.png",
+    "static/media/veg-cart.png": "/Youssef_Portfolio/static/media/veg-cart.7ba748bcc079ba3d51e9.png",
+    "static/media/store.png": "/Youssef_Portfolio/static/media/store.44923f1cd772f272882a.png",
+    "static/media/first-work-freelance.png": "/Youssef_Portfolio/static/media/first-work-freelance.0257b7daccea61df8518.png",
+    "static/media/temp1.png": "/Youssef_Portfolio/static/media/temp1.7bf39427e96272e002db.png",
+    "static/media/c4.png": "/Youssef_Portfolio/static/media/c4.bb096284f522e58e7128.png",
+    "static/media/abo-taleb.png": "/Youssef_Portfolio/static/media/abo-taleb.6f5aefe0c24f3e2c3a9a.png",
+    "static/media/product-landingpage.png": "/Youssef_Portfolio/static/media/product-landingpage.d77586cd44d90ddbbd47.png",
+    "static/media/shoppingcart.png": "/Youssef_Portfolio/static/media/shoppingcart.db2ff33029377ea1a2fb.png",
+    "static/media/c1.png": "/Youssef_Portfolio/static/media/c1.50dbf321b5b99211e66a.png",
+    "static/media/c6.png": "/Youssef_Portfolio/static/media/c6.9a8dd5b622e8904e8f62.png",
+    "static/media/linkedin.png": "/Youssef_Portfolio/static/media/linkedin.65fc7ad37b137b20d8c8.png",
+    "static/media/discord.png": "/Youssef_Portfolio/static/media/discord.4f668b69739d9bb798f5.png",
+    "static/media/Me.jpg": "/Youssef_Portfolio/static/media/Me.5dbfd2d215b1aac4254e.jpg",
+    "static/media/c2.png": "/Youssef_Portfolio/static/media/c2.9d62bb1dbba4ffaf848c.png",
+    "static/media/c3.png": "/Youssef_Portfolio/static/media/c3.a38608188f23fee49eaa.png",
+    "static/media/crypto_project.png": "/Youssef_Portfolio/static/media/crypto_project.8395c992f5b5df54b02a.png",
+    "static/media/mem-game.png": "/Youssef_Portfolio/static/media/mem-game.4e924212ededaa1a2b94.png",
+    "static/media/questions.png": "/Youssef_Portfolio/static/media/questions.06a0a49726bf03e302e8.png",
+    "static/media/todo.png": "/Youssef_Portfolio/static/media/todo.68eca3245b95226093d3.png",
+    "static/media/wordgame.png": "/Youssef_Portfolio/static/media/wordgame.45dbfd12ee946f16fb17.png",
+    "static/media/advice-generator.png": "/Youssef_Portfolio/static/media/advice-generator.6fb90875503dc008677f.png",
+    "index.html": "/Youssef_Portfolio/index.html",
+    "main.9fc54a86.css.map": "/Youssef_Portfolio/static/css/main.9fc54a86.css.map",
+    "main.3a0282f6.js.map": "/Youssef_Portfolio/static/js/main.3a0282f6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9fc54a86.css",
+    "static/js/main.3a0282f6.js"
+  ]
+}
