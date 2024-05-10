@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Youssef_Portfolio/static/css/main.9fc54a86.css",
-    "main.js": "/Youssef_Portfolio/static/js/main.3a0282f6.js",
+    "main.js": "/Youssef_Portfolio/static/js/main.d55db58b.js",
     "static/media/sharek.png": "/Youssef_Portfolio/static/media/sharek.5afbc7ddc2e74629d0d5.png",
     "static/media/weatherapp.png": "/Youssef_Portfolio/static/media/weatherapp.f24cbb27fd2de2d932d3.png",
     "static/media/amazontemp.png": "/Youssef_Portfolio/static/media/amazontemp.65af4a21a6a1d6280ce6.png",
@@ -32,10 +32,10 @@
     "static/media/advice-generator.png": "/Youssef_Portfolio/static/media/advice-generator.6fb90875503dc008677f.png",
     "index.html": "/Youssef_Portfolio/index.html",
     "main.9fc54a86.css.map": "/Youssef_Portfolio/static/css/main.9fc54a86.css.map",
-    "main.3a0282f6.js.map": "/Youssef_Portfolio/static/js/main.3a0282f6.js.map"
+    "main.d55db58b.js.map": "/Youssef_Portfolio/static/js/main.d55db58b.js.map"
   },
   "entrypoints": [
     "static/css/main.9fc54a86.css",
-    "static/js/main.3a0282f6.js"
+    "static/js/main.d55db58b.js"
   ]
 }
