@@ -30,6 +30,29 @@ const Projects = () => {
   return (
     <section className="relative projects-section">
       <h1
+        className="my-4 mb-8 font-bold text-center text-slate-50 lg:text-2xl text-xl"
+        style={{ borderBottom: "1px solid white" }}
+      >
+        Next Js Projects (Soon...)
+      </h1>
+
+      <div className="flex">
+        <div className="single-personal-projects overflow-hidden flex flex-col">
+          <div
+            className="overflow-hidden"
+            style={{ width: "100%", height: "60%" }}
+          >
+            <img
+              width={"100%"}
+              height={"100%"}
+              src={`https://global.discourse-cdn.com/auth0/original/2X/a/ae35edce19e64c53e5d455b22e8a2c82d093d4c9.png`}
+              alt="project image"
+            />
+          </div>
+        </div>
+      </div>
+
+      <h1
         className="my-4 mb-8 font-bold text-center text-slate-50"
         style={{ fontSize: "39px", borderBottom: "1px solid white" }}
       >
