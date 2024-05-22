@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Youssef_Portfolio/static/css/main.a2eedcef.css",
-    "main.js": "/Youssef_Portfolio/static/js/main.6fa0188f.js",
+    "main.css": "/Youssef_Portfolio/static/css/main.ebfcca1f.css",
+    "main.js": "/Youssef_Portfolio/static/js/main.2a8e076e.js",
     "static/media/sharek.png": "/Youssef_Portfolio/static/media/sharek.5afbc7ddc2e74629d0d5.png",
     "static/media/weatherapp.png": "/Youssef_Portfolio/static/media/weatherapp.f24cbb27fd2de2d932d3.png",
     "static/media/amazontemp.png": "/Youssef_Portfolio/static/media/amazontemp.65af4a21a6a1d6280ce6.png",
@@ -10,7 +10,6 @@
     "static/media/c5.png": "/Youssef_Portfolio/static/media/c5.a789081f12224dad7b24.png",
     "static/media/outlet.png": "/Youssef_Portfolio/static/media/outlet.9b45f2d110725cec9b09.png",
     "static/media/veg-cart.png": "/Youssef_Portfolio/static/media/veg-cart.7ba748bcc079ba3d51e9.png",
-    "static/media/store.png": "/Youssef_Portfolio/static/media/store.44923f1cd772f272882a.png",
     "static/media/first-work-freelance.png": "/Youssef_Portfolio/static/media/first-work-freelance.0257b7daccea61df8518.png",
     "static/media/temp1.png": "/Youssef_Portfolio/static/media/temp1.7bf39427e96272e002db.png",
     "static/media/c4.png": "/Youssef_Portfolio/static/media/c4.bb096284f522e58e7128.png",
@@ -27,15 +26,14 @@
     "static/media/crypto_project.png": "/Youssef_Portfolio/static/media/crypto_project.8395c992f5b5df54b02a.png",
     "static/media/mem-game.png": "/Youssef_Portfolio/static/media/mem-game.4e924212ededaa1a2b94.png",
     "static/media/questions.png": "/Youssef_Portfolio/static/media/questions.06a0a49726bf03e302e8.png",
-    "static/media/todo.png": "/Youssef_Portfolio/static/media/todo.68eca3245b95226093d3.png",
     "static/media/wordgame.png": "/Youssef_Portfolio/static/media/wordgame.45dbfd12ee946f16fb17.png",
     "static/media/advice-generator.png": "/Youssef_Portfolio/static/media/advice-generator.6fb90875503dc008677f.png",
     "index.html": "/Youssef_Portfolio/index.html",
-    "main.a2eedcef.css.map": "/Youssef_Portfolio/static/css/main.a2eedcef.css.map",
-    "main.6fa0188f.js.map": "/Youssef_Portfolio/static/js/main.6fa0188f.js.map"
+    "main.ebfcca1f.css.map": "/Youssef_Portfolio/static/css/main.ebfcca1f.css.map",
+    "main.2a8e076e.js.map": "/Youssef_Portfolio/static/js/main.2a8e076e.js.map"
   },
   "entrypoints": [
-    "static/css/main.a2eedcef.css",
-    "static/js/main.6fa0188f.js"
+    "static/css/main.ebfcca1f.css",
+    "static/js/main.2a8e076e.js"
   ]
 }
