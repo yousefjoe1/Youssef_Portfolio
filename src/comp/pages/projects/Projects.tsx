@@ -6,7 +6,7 @@ import freelance1 from "./Imgs/first-work-freelance.png";
 
 import questionspro from "./Imgs/questions.png";
 import crypto_project from "./Imgs/crypto_project.png";
-import store from "./Imgs/store.png";
+
 import Travel_advisor_project from "./Imgs/Travel_advisor_project.png";
 import wordgame from "./Imgs/wordgame.png";
 import veg_cart from "./Imgs/veg-cart.png";
@@ -14,7 +14,6 @@ import weatherapp from "./Imgs/weatherapp.png";
 import linkedin from "./Imgs/linkedin.png";
 import temp1 from "./Imgs/temp1.png";
 import advice_generator from "./Imgs/advice-generator.png";
-import todo from "./Imgs/todo.png";
 import discord from "./Imgs/discord.png";
 import calc from "./Imgs/calc.png";
 import mem_game from "./Imgs/mem-game.png";
@@ -33,7 +32,7 @@ const Projects = () => {
         className="my-4 mb-8 font-bold text-center text-slate-50 lg:text-2xl text-xl"
         style={{ borderBottom: "1px solid white" }}
       >
-        Next Js Projects (Soon...)
+        Next Js Projects
       </h1>
 
       <div className="flex">
@@ -45,9 +44,25 @@ const Projects = () => {
             <img
               width={"100%"}
               height={"100%"}
-              src={`https://global.discourse-cdn.com/auth0/original/2X/a/ae35edce19e64c53e5d455b22e8a2c82d093d4c9.png`}
+              src={`https://png.pngtree.com/thumb_back/fh260/background/20220518/pngtree-quiz-game-show-quiz-uncertainty-photo-image_2221079.jpg`}
               alt="project image"
             />
+          </div>
+          <div className="text-center info-hiding">
+            <h1>Quiz</h1>
+            <h2>
+              HTML + CSS + JAVASCRIPT + REACT.JS + TYPESCRIPT + TAILWIND_CSS
+            </h2>
+            <br />
+            <a
+              target="_blank"
+              href="https://quiz-app-next-js-peach.vercel.app/"
+            >
+              Link
+              <span className="flex justify-center">
+                <AiOutlineGlobal style={{ fontSize: "20px" }} />
+              </span>
+            </a>
           </div>
         </div>
       </div>
@@ -76,31 +91,6 @@ const Projects = () => {
             <h2>HTML + CSS + JAVASCRIPT + REACT.JS + TAILWIND_CSS</h2>
             <br />
             <a target="_blank" href="https://mansoura-eco-build.com/">
-              Link
-              <span className="flex justify-center">
-                <AiOutlineGlobal style={{ fontSize: "20px" }} />
-              </span>
-            </a>
-          </div>
-        </div>
-
-        <div className="single-personal-projects">
-          <div
-            className="overflow-hidden project-img-container"
-            style={{ width: "100%", height: "60%" }}
-          >
-            <img
-              style={{ width: "100%", height: "100%" }}
-              src={aboTaleb}
-              alt=""
-            />
-          </div>
-
-          <div className="text-center info-hiding">
-            <h1>Abo Taleb</h1>
-            <h2>HTML + CSS + JAVASCRIPT + REACT.JS + TAILWIND_CSS</h2>
-            <br />
-            <a target="_blank" href="https://sirtz.com/">
               Link
               <span className="flex justify-center">
                 <AiOutlineGlobal style={{ fontSize: "20px" }} />
@@ -166,7 +156,32 @@ const Projects = () => {
       >
         FreeLance Projects
       </h2>
-      <div className="relative flex justify-center freelance-projects-container">
+      <div className="relative flex justify-around flex-wrap gap-5 freelance-projects-container">
+        <div className="text-center freeelance-single-project">
+          <div
+            className="overflow-hidden project-img-container"
+            style={{ width: "100%", height: "60%" }}
+          >
+            <img
+              style={{ width: "100%", height: "100%" }}
+              src={aboTaleb}
+              alt="Project image"
+            />
+          </div>
+          <div className="info-hiding">
+            <h1>Abo Taleb</h1>
+            <h2>
+              HTML + CSS + JAVASCRIPT + REACT.JS + TAILWIND_CSS
+            </h2>
+            <br />
+            <a target="_blank" href="https://sirtz.com/">
+              Link
+              <span className="flex justify-center">
+                <AiOutlineGlobal style={{ fontSize: "20px" }} />
+              </span>
+            </a>
+          </div>
+        </div>
         <div className="text-center freeelance-single-project">
           <img src={freelance1} alt="" />
           <div className="info-hiding">
@@ -500,29 +515,6 @@ const Projects = () => {
             className="project-img-container"
             style={{ width: "100%", height: "60%" }}
           >
-            <img style={{ width: "100%", height: "100%" }} src={store} alt="" />
-          </div>
-          <div className="text-center info-hiding">
-            <h1>Store</h1>
-            <h2>HTML + CSS + BOOTSTRAP + JAVASCRIPT</h2>
-            <br />
-            <a
-              target="_blank"
-              href="https://yousefjoe1.github.io/Simple-E-commerce/index.html"
-            >
-              Link
-              <span className="flex justify-center">
-                <AiOutlineGlobal style={{ fontSize: "20px" }} />
-              </span>
-            </a>
-          </div>
-        </div>
-
-        <div className="single-personal-projects">
-          <div
-            className="project-img-container"
-            style={{ width: "100%", height: "60%" }}
-          >
             <img
               style={{ width: "100%", height: "100%" }}
               src={Travel_advisor_project}
@@ -672,30 +664,6 @@ const Projects = () => {
           </div>
         </div>
 
-        <div className="single-personal-projects">
-          <div
-            className="project-img-container"
-            style={{ width: "100%", height: "60%" }}
-          >
-            <img style={{ width: "100%", height: "100%" }} src={todo} alt="" />
-          </div>
-          <div className="text-center info-hiding">
-            <h1>Todo List</h1>
-            <h2>
-              HTML + CSS + JAVASCRIPT + REACT.JS + TYPESCRIPT + TAILWIND CSS
-            </h2>
-            <br />
-            <a
-              href="https://yousefjoe1.github.io/Simple-Todo-app/"
-              target="_blank"
-            >
-              Link
-              <span className="flex justify-center">
-                <AiOutlineGlobal style={{ fontSize: "20px" }} />
-              </span>
-            </a>
-          </div>
-        </div>
       </div>
     </section>
   );

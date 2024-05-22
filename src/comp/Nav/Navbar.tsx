@@ -5,11 +5,6 @@ import { AiFillCaretDown } from 'react-icons/ai';
 
 import st from './nav.module.css'
 
-import meim from '../../Me.jpg'
-
-console.log('hi');
-
-
 const Navbar = () => {
 const [rotateval,setRotatval] = useState<string>('about-rotate')
 
