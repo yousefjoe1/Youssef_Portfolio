@@ -114,7 +114,7 @@ useEffect(() => {
 
 
   return (
-    <nav style={{height:'100vh'}} className='flex items-center relative justify-center'>
+    <nav style={{height:'100vh'}} className='flex bg-[#808991] border-b-8 items-center relative justify-center'>
       {/* <div className={`${st.pointer_link} ${showboxLinks} ${boxPosition} absolute z-50`}>
         <span className='arrow-pointer'><AiFillCaretDown className='arrow-pointer-animation' style={{fontSize:'35px'}} /></span>
       </div> */}

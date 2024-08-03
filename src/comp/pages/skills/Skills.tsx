@@ -13,7 +13,9 @@ import { SiTailwindcss } from "react-icons/si";
 
 const Skills = () => {
   return (
-    <section className='skills-section flex justify-center items-center p-3 '>
+    <section className='skills-section flex justify-center items-center p-3 flex-col'>
+
+      {/* <h1>Skills</h1> */}
 
       <div className="skills-container-animation font-bold">
 

@@ -9,9 +9,10 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: #606c88;
-  background: -webkit-linear-gradient(to right, #3f4c6b, #606c88);
-  background: linear-gradient(to right, #3f4c6b, #606c88);
+  /* background: #606c88; */
+  background: #8e9eab;
+  /* background: -webkit-linear-gradient(to right, #3f4c6b, #606c88);
+  background: linear-gradient(to right, #3f4c6b, #606c88); */
   /* background-color: rgb(0, 0, 0,.3)!important; */
   /* background-color: #ebebeb!important; */
   /* box-shadow: 0 4px 4px #00000040; */
