@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Youssef_Portfolio/static/css/main.ebfcca1f.css",
-    "main.js": "/Youssef_Portfolio/static/js/main.c983f7a9.js",
+    "main.css": "/Youssef_Portfolio/static/css/main.300b47fc.css",
+    "main.js": "/Youssef_Portfolio/static/js/main.58850257.js",
     "static/media/sharek.png": "/Youssef_Portfolio/static/media/sharek.5afbc7ddc2e74629d0d5.png",
     "static/media/weatherapp.png": "/Youssef_Portfolio/static/media/weatherapp.f24cbb27fd2de2d932d3.png",
     "static/media/amazontemp.png": "/Youssef_Portfolio/static/media/amazontemp.65af4a21a6a1d6280ce6.png",
@@ -29,11 +29,11 @@
     "static/media/wordgame.png": "/Youssef_Portfolio/static/media/wordgame.45dbfd12ee946f16fb17.png",
     "static/media/advice-generator.png": "/Youssef_Portfolio/static/media/advice-generator.6fb90875503dc008677f.png",
     "index.html": "/Youssef_Portfolio/index.html",
-    "main.ebfcca1f.css.map": "/Youssef_Portfolio/static/css/main.ebfcca1f.css.map",
-    "main.c983f7a9.js.map": "/Youssef_Portfolio/static/js/main.c983f7a9.js.map"
+    "main.300b47fc.css.map": "/Youssef_Portfolio/static/css/main.300b47fc.css.map",
+    "main.58850257.js.map": "/Youssef_Portfolio/static/js/main.58850257.js.map"
   },
   "entrypoints": [
-    "static/css/main.ebfcca1f.css",
-    "static/js/main.c983f7a9.js"
+    "static/css/main.300b47fc.css",
+    "static/js/main.58850257.js"
   ]
 }
