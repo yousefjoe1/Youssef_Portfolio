@@ -123,23 +123,51 @@ useEffect(() => {
       <div className="absolute z-0 w-full h-full rounded-full bg-black/20" />
 
         <div className={`${st.skills} skills-div relative z-50`}>
-      <a href="" className={`${rotateval == 'skills-rotate'? 'border-b-2':''}`} onClick={(e)=> rotationFunc('skills',e)}>Skills</a>
+          {
+            rotateval == 'skills-rotate' &&
+        <span className="relative flex h-3 w-3">
+          <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-sky-400 opacity-75"></span>
+          <span className="relative inline-flex rounded-full h-3 w-3 bg-sky-500"></span>
+        </span>
+          }
+          <a href="" className={`${rotateval == 'skills-rotate'? 'border-b-2 bg-slate-400':''}`} onClick={(e)=> rotationFunc('skills',e)}>Skills</a>
         </div>
 
         <div className={`${st.about_certificates} overflow-hidden relative z-50`}>
 
           <div className={`${st.about} about-div`}>
-            <a className={`${rotateval == 'about-rotate'? 'border-b-2':''} text-center block w-full`} onClick={(e)=> rotationFunc('about',e)} href="">About</a>
+          {
+            rotateval == 'about-rotate' &&
+            <span className="relative flex h-3 w-3">
+              <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-sky-400 opacity-75"></span>
+              <span className="relative inline-flex rounded-full h-3 w-3 bg-sky-500"></span>
+            </span>
+          }
+            <a className={`${rotateval == 'about-rotate'? 'border-b-2 bg-slate-400':''} text-center block w-full`} onClick={(e)=> rotationFunc('about',e)} href="">About</a>
           </div>
 
           <div className={`${st.certificates} certificate-div`}>
-            <a className={`${rotateval == 'certificate-rotate-from-about'? 'border-b-2':''} text-center block w-full`} onClick={(e)=> rotationFunc('certificates',e)} href="">Certificates</a>
+          {
+            rotateval == 'certificate-rotate-from-skills' || rotateval == 'certificate-rotate-from-about' &&
+            <span className="relative flex h-3 w-3">
+              <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-sky-400 opacity-75"></span>
+              <span className="relative inline-flex rounded-full h-3 w-3 bg-sky-500"></span>
+            </span>
+          }
+            <a className={`${rotateval == 'certificate-rotate-from-about'? 'border-b-2 bg-slate-400':''} text-center block w-full`} onClick={(e)=> rotationFunc('certificates',e)} href="">Certificates</a>
           </div>
 
         </div>
 
         <div className={`${st.projects} projects-div overflow-hidden relative z-50`}>
-          <a className={`${rotateval == 'projects-rotate-basic'? 'border-b-2':''} text-center block w-full`} onClick={(e)=> rotationFunc('projects',e)} href="">Projects</a>
+          {
+            rotateval == 'projects-rotate-basic' &&
+            <span className="relative flex h-3 w-3">
+              <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-sky-400 opacity-75"></span>
+              <span className="relative inline-flex rounded-full h-3 w-3 bg-sky-500"></span>
+            </span>
+          }
+          <a className={`${rotateval == 'projects-rotate-basic'? 'border-b-2 bg-slate-400':''} text-center block w-full`} onClick={(e)=> rotationFunc('projects',e)} href="">Projects</a>
         </div>
       </div>
       

@@ -54,6 +54,7 @@ const Home = () => {
           <h1 className="relative z-10 lg:text-2xl">Youssef Mahmoud</h1>
           <h1 className="relative z-10 lg:text-xl">Front End Developer</h1>
           <h1 className="relative z-10 lg:text-xl">yousefmahmoud150@gmail.com</h1>
+          <h1 className="relative z-10 lg:text-xl">+201554464169</h1>
           <div className="flex relative z-10 items-center justify-around gap-7 mt-1 social-links">
               <a href='https://www.linkedin.com/in/youssefmahmoud1/' target={'_blank'}> <BsLinkedin style={{fontSize:'30px',color:'#0a66c2'}} /> </a>
               <a href='https://github.com/yousefjoe1' target={'_blank'}><DiGithubBadge className='text-white' style={{fontSize:'40px'}} /></a>
