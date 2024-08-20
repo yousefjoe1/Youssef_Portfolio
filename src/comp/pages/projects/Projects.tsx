@@ -24,6 +24,7 @@ import outlet from "./Imgs/outlet.png";
 import sharek from "./Imgs/sharek.png";
 import eskan from "./Imgs/eskan.png";
 import aboTaleb from "./Imgs/abo-taleb.png";
+import fruit from "./Imgs/fruit.png";
 
 const Projects = () => {
   return (
@@ -44,19 +45,19 @@ const Projects = () => {
             <img
               width={"100%"}
               height={"100%"}
-              src={`https://png.pngtree.com/thumb_back/fh260/background/20220518/pngtree-quiz-game-show-quiz-uncertainty-photo-image_2221079.jpg`}
+              src={fruit}
               alt="project image"
             />
           </div>
           <div className="text-center info-hiding">
-            <h1>Quiz</h1>
+            <h1>Fruits</h1>
             <h2>
-              HTML + CSS + JAVASCRIPT + REACT.JS + TYPESCRIPT + TAILWIND_CSS
+              HTML + CSS + JAVASCRIPT + REACT.JS + TYPESCRIPT + TAILWIND_CSS + NODE_JS + MONGOOS + MONGO_DB
             </h2>
             <br />
             <a
               target="_blank"
-              href="https://quiz-app-next-js-peach.vercel.app/"
+              href="https://food-menu-bice.vercel.app/"
             >
               Link
               <span className="flex justify-center">
