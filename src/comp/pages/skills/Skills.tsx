@@ -13,25 +13,25 @@ import { SiTailwindcss } from "react-icons/si";
 
 const Skills = () => {
   return (
-    <section className='skills-section flex justify-center items-center p-3 flex-col'>
+    <section className='skills-section flex justify-center items-center p-3 flex-col overflow-hidden'>
 
       {/* <h1>Skills</h1> */}
 
       <div className="skills-container-animation font-bold">
 
         <div className="left-skills">
-          <div className=''>
-            <DiHtml5 className='' style={{fontSize:'25px'}} />
+          <div className='lg:text-md text-sm'>
+            <DiHtml5 className='lg:text-xl text-lg ' />
             <p>HTML</p>
           </div>
 
-          <div className='' >
-            <DiCss3 className='' />
+          <div className='lg:text-md text-sm' >
+            <DiCss3 className='lg:text-xl text-lg ' />
             <p>CSS</p>
           </div>
 
-          <div className='' >
-            <DiJsBadge className='' style={{fontSize:'25px'}} />
+          <div className='lg:text-md text-sm' >
+            <DiJsBadge className='lg:text-xl text-lg ' />
             <p>JAVASCRIPT</p>
           </div>
 
@@ -39,13 +39,13 @@ const Skills = () => {
 
         <div className="middle-skills">
 
-          <div className='' >
-            <DiSass className='' style={{fontSize:'25px'}} />
+          <div className='lg:text-md text-sm' >
+            <DiSass className='lg:text-xl text-lg ' />
             <p>SASS</p>
           </div>
 
-          <div className='' >
-            <DiBootstrap className='' style={{fontSize:'25px'}} />
+          <div className='lg:text-md text-sm' >
+            <DiBootstrap className='lg:text-xl text-lg ' />
             <p>BOOTSTRAP</p>
           </div>
 
@@ -53,18 +53,18 @@ const Skills = () => {
 
         <div className="right-skills">
           
-          <div className='' >
-            <DiGit className='' style={{fontSize:'25px'}} />
+          <div className='lg:text-md text-sm' >
+            <DiGit className='lg:text-xl text-lg ' />
             <p>GIT</p>
           </div>
 
-          <div className='' >
-            <DiReact className='' style={{fontSize:'25px'}}  />
+          <div className='lg:text-md text-sm' >
+            <DiReact className='lg:text-xl text-lg '  />
             <p>REACT</p>
           </div>
 
-          <div className='' >
-            <SiTailwindcss className='' style={{fontSize:'25px'}} />
+          <div className='lg:text-md text-sm' >
+            <SiTailwindcss className='lg:text-xl text-lg ' />
             <p className='text-center'>TAILWIND CSS</p>
           </div>
         </div>
