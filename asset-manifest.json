@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Youssef_Portfolio/static/css/main.1277976e.css",
-    "main.js": "/Youssef_Portfolio/static/js/main.eb6462dd.js",
+    "main.css": "/Youssef_Portfolio/static/css/main.6b75420f.css",
+    "main.js": "/Youssef_Portfolio/static/js/main.2a5fc316.js",
     "static/media/sharek.png": "/Youssef_Portfolio/static/media/sharek.5afbc7ddc2e74629d0d5.png",
     "static/media/weatherapp.png": "/Youssef_Portfolio/static/media/weatherapp.f24cbb27fd2de2d932d3.png",
     "static/media/amazontemp.png": "/Youssef_Portfolio/static/media/amazontemp.65af4a21a6a1d6280ce6.png",
@@ -18,6 +18,7 @@
     "static/media/shoppingcart.png": "/Youssef_Portfolio/static/media/shoppingcart.db2ff33029377ea1a2fb.png",
     "static/media/c1.png": "/Youssef_Portfolio/static/media/c1.50dbf321b5b99211e66a.png",
     "static/media/c6.png": "/Youssef_Portfolio/static/media/c6.9a8dd5b622e8904e8f62.png",
+    "static/media/fruit.png": "/Youssef_Portfolio/static/media/fruit.c2f84c3db6eb4e560235.png",
     "static/media/linkedin.png": "/Youssef_Portfolio/static/media/linkedin.65fc7ad37b137b20d8c8.png",
     "static/media/discord.png": "/Youssef_Portfolio/static/media/discord.4f668b69739d9bb798f5.png",
     "static/media/Me.jpg": "/Youssef_Portfolio/static/media/Me.5dbfd2d215b1aac4254e.jpg",
@@ -29,11 +30,11 @@
     "static/media/wordgame.png": "/Youssef_Portfolio/static/media/wordgame.45dbfd12ee946f16fb17.png",
     "static/media/advice-generator.png": "/Youssef_Portfolio/static/media/advice-generator.6fb90875503dc008677f.png",
     "index.html": "/Youssef_Portfolio/index.html",
-    "main.1277976e.css.map": "/Youssef_Portfolio/static/css/main.1277976e.css.map",
-    "main.eb6462dd.js.map": "/Youssef_Portfolio/static/js/main.eb6462dd.js.map"
+    "main.6b75420f.css.map": "/Youssef_Portfolio/static/css/main.6b75420f.css.map",
+    "main.2a5fc316.js.map": "/Youssef_Portfolio/static/js/main.2a5fc316.js.map"
   },
   "entrypoints": [
-    "static/css/main.1277976e.css",
-    "static/js/main.eb6462dd.js"
+    "static/css/main.6b75420f.css",
+    "static/js/main.2a5fc316.js"
   ]
 }
