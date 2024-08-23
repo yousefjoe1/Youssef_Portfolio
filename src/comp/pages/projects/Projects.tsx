@@ -28,7 +28,7 @@ import fruit from "./Imgs/fruit.png";
 
 const Projects = () => {
   return (
-    <section className="relative projects-section">
+    <section className="relative projects-section bg-slate-700">
       <h1
         className="my-4 mb-8 font-bold text-center text-slate-50 lg:text-2xl text-xl"
         style={{ borderBottom: "1px solid white" }}

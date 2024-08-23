@@ -9,7 +9,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: #8e9eab;
+  /* background: #8e9eab; */
+  background: rgb(231, 230, 230);
 }
 
 /* width */

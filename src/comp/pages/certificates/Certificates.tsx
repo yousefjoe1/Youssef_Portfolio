@@ -6,6 +6,7 @@ import img3 from "./Certf/c3.png";
 import img4 from "./Certf/c4.png";
 import img5 from "./Certf/c5.png";
 import img6 from "./Certf/c6.png";
+import alx from "./Certf/alx.png";
 
 import './certif.css'
 
@@ -17,27 +18,31 @@ const Certificates = () => {
     <div className="certificates-container flex justify-center flex-wrap">
 
         <div className="single-certificate m-7" style={{width:'500px',height:'500px'}}>
-          <img className=' rounded-lg' style={{width:'100%',height:'100%'}} src={img1} alt="" />
+          <img className='w-full h-full object-contain rounded-lg' src={alx} alt="" />
+        </div>
+
+        <div className="single-certificate m-7" style={{width:'500px',height:'500px'}}>
+          <img className=' w-full h-full object-contain rounded-lg' src={img1} alt="" />
         </div>
 
         <div className="single-certificate  m-7" style={{width:'500px',height:'500px'}}>
-          <img className=' rounded-lg' style={{width:'100%',height:'100%'}}  src={img2} alt="" />
+          <img className='object-contain rounded-lg' style={{width:'100%',height:'100%'}}  src={img2} alt="" />
         </div>
 
         <div className="single-certificate  m-7" style={{width:'500px',height:'500px'}}>
-          <img className=' rounded-lg'  style={{width:'100%',height:'100%'}} src={img3} alt="" />
+          <img className='object-contain rounded-lg'  style={{width:'100%',height:'100%'}} src={img3} alt="" />
         </div>
 
         <div className="single-certificate  m-7" style={{width:'500px',height:'500px'}}>
-          <img className=' rounded-lg' style={{width:'100%',height:'100%'}} src={img4} alt="" />
+          <img className='object-contain rounded-lg' style={{width:'100%',height:'100%'}} src={img4} alt="" />
         </div>
 
         <div className="single-certificate  m-7" style={{width:'500px',height:'500px'}}>
-          <img className=' rounded-lg' style={{width:'100%',height:'100%'}} src={img5} alt="" />
+          <img className='object-contain rounded-lg' style={{width:'100%',height:'100%'}} src={img5} alt="" />
         </div>
 
         <div className="single-certificate  m-7" style={{width:'500px',height:'500px'}}>
-          <img className=' rounded-lg' style={{width:'100%',height:'100%'}} src={img6} alt="" />
+          <img className='object-contain rounded-lg' style={{width:'100%',height:'100%'}} src={img6} alt="" />
         </div>
 
     </div>

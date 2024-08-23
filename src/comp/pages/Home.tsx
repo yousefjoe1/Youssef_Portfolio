@@ -33,14 +33,9 @@ const Home = () => {
         </div> */}
 
       <div className="flex justify-between gap-10 mt-10 p-6 lg:flex-nowrap flex-wrap">
-        <p className="font-semibold bg-white p-7 rounded-2xl lg:w-1/2 text-2xl">
-          I'm a passionate front-end developer with 2 years of experience
-          building dynamic and user-centric web applications using React. My
-          expertise lies in crafting intuitive user interfaces, optimizing
-          performance, and collaborating effectively in agile teams. I thrive on
-          challenges and am constantly seeking opportunities to learn and grow
-          my skills. Let's connect and build something amazing together!
-        </p>
+        <p className="font-semibold flex flex-col justify-center bg-white p-7 rounded-2xl lg:w-1/2 text-2xl">
+        I'm a passionate front-end developer with 2 years of experience building dynamic and user-centric web applications using React. My expertise lies in crafting intuitive user interfaces, optimizing performance, and collaborating effectively in agile teams. I thrive on challenges.
+        Let's connect and build something amazing together!</p>
 
         <div className="my-img lg:w-1/2 flex justify-center items-center flex-col gap-3 relative p-7">
           <div className="absolute w-full h-full z-0 gl-effect"></div>

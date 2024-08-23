@@ -17,7 +17,7 @@ nav {
     transition: all 1s ease;
     background: url('https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png') no-repeat;
     background-position: center;
-    background-size: contain;
+    background-size: 60%;
 }
 
 .about_certificates {

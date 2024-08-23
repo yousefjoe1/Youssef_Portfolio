@@ -114,13 +114,13 @@ useEffect(() => {
 
 
   return (
-    <nav style={{height:'100vh'}} className='flex bg-[#808991] border-b-8 items-center relative justify-center'>
+    <nav style={{height:'100vh'}} className='flex  border-b-8 items-center relative justify-center'>
       {/* <div className={`${st.pointer_link} ${showboxLinks} ${boxPosition} absolute z-50`}>
         <span className='arrow-pointer'><AiFillCaretDown className='arrow-pointer-animation' style={{fontSize:'35px'}} /></span>
       </div> */}
 
       <div className={`${st.navLinks_wrapper} ${navWrapperActive} relative z-10 ${rotateval}`}>
-      <div className="absolute z-0 w-full h-full rounded-full bg-black/20" />
+      <div className="absolute z-0 w-full h-full rounded-full bg-black/10" style={{backgroundColor: ''}} />
 
         <div className={`${st.skills} skills-div relative z-50`}>
           {
@@ -130,7 +130,7 @@ useEffect(() => {
           <span className="relative inline-flex rounded-full h-3 w-3 bg-sky-500"></span>
         </span>
           }
-          <a href="" className={`${rotateval == 'skills-rotate'? 'border-b-2 bg-slate-400':''}`} onClick={(e)=> rotationFunc('skills',e)}>Skills</a>
+          <a href="" className={`${rotateval == 'skills-rotate'? 'border-b-2 bg-slate-400':''} text-black`} onClick={(e)=> rotationFunc('skills',e)}>Skills</a>
         </div>
 
         <div className={`${st.about_certificates} overflow-hidden relative z-50`}>
@@ -143,7 +143,7 @@ useEffect(() => {
               <span className="relative inline-flex rounded-full h-3 w-3 bg-sky-500"></span>
             </span>
           }
-            <a className={`${rotateval == 'about-rotate'? 'border-b-2 bg-slate-400':''} text-center block w-full`} onClick={(e)=> rotationFunc('about',e)} href="">About</a>
+            <a className={`${rotateval == 'about-rotate'? 'border-b-2 bg-slate-400':''} text-center text-black block w-full`} onClick={(e)=> rotationFunc('about',e)} href="">About</a>
           </div>
 
           <div className={`${st.certificates} certificate-div`}>
@@ -154,7 +154,7 @@ useEffect(() => {
               <span className="relative inline-flex rounded-full h-3 w-3 bg-sky-500"></span>
             </span>
           }
-            <a className={`${rotateval == 'certificate-rotate-from-about'? 'border-b-2 bg-slate-400':''} text-center block w-full`} onClick={(e)=> rotationFunc('certificates',e)} href="">Certificates</a>
+            <a className={`${rotateval == 'certificate-rotate-from-about'? 'border-b-2 bg-slate-400':''} text-black text-center block w-full`} onClick={(e)=> rotationFunc('certificates',e)} href="">Certificates</a>
           </div>
 
         </div>
@@ -167,7 +167,7 @@ useEffect(() => {
               <span className="relative inline-flex rounded-full h-3 w-3 bg-sky-500"></span>
             </span>
           }
-          <a className={`${rotateval == 'projects-rotate-basic'? 'border-b-2 bg-slate-400':''} text-center block w-full`} onClick={(e)=> rotationFunc('projects',e)} href="">Projects</a>
+          <a className={`${rotateval == 'projects-rotate-basic'? 'border-b-2 bg-slate-400':''} text-center block  text-black w-full`} onClick={(e)=> rotationFunc('projects',e)} href="">Projects</a>
         </div>
       </div>
       
