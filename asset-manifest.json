@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Youssef_Portfolio/static/css/main.f44f157a.css",
-    "main.js": "/Youssef_Portfolio/static/js/main.bc3b5db7.js",
+    "main.css": "/Youssef_Portfolio/static/css/main.4ea1682e.css",
+    "main.js": "/Youssef_Portfolio/static/js/main.1c76db42.js",
     "static/media/sharek.png": "/Youssef_Portfolio/static/media/sharek.5afbc7ddc2e74629d0d5.png",
     "static/media/weatherapp.png": "/Youssef_Portfolio/static/media/weatherapp.f24cbb27fd2de2d932d3.png",
     "static/media/amazontemp.png": "/Youssef_Portfolio/static/media/amazontemp.65af4a21a6a1d6280ce6.png",
@@ -13,6 +13,7 @@
     "static/media/first-work-freelance.png": "/Youssef_Portfolio/static/media/first-work-freelance.0257b7daccea61df8518.png",
     "static/media/temp1.png": "/Youssef_Portfolio/static/media/temp1.7bf39427e96272e002db.png",
     "static/media/abo-taleb.png": "/Youssef_Portfolio/static/media/abo-taleb.520524c68c1b80cd304a.png",
+    "static/media/alx.png": "/Youssef_Portfolio/static/media/alx.0faa75ed04b90deac362.png",
     "static/media/c4.png": "/Youssef_Portfolio/static/media/c4.bb096284f522e58e7128.png",
     "static/media/product-landingpage.png": "/Youssef_Portfolio/static/media/product-landingpage.d77586cd44d90ddbbd47.png",
     "static/media/shoppingcart.png": "/Youssef_Portfolio/static/media/shoppingcart.db2ff33029377ea1a2fb.png",
@@ -30,11 +31,11 @@
     "static/media/wordgame.png": "/Youssef_Portfolio/static/media/wordgame.45dbfd12ee946f16fb17.png",
     "static/media/advice-generator.png": "/Youssef_Portfolio/static/media/advice-generator.6fb90875503dc008677f.png",
     "index.html": "/Youssef_Portfolio/index.html",
-    "main.f44f157a.css.map": "/Youssef_Portfolio/static/css/main.f44f157a.css.map",
-    "main.bc3b5db7.js.map": "/Youssef_Portfolio/static/js/main.bc3b5db7.js.map"
+    "main.4ea1682e.css.map": "/Youssef_Portfolio/static/css/main.4ea1682e.css.map",
+    "main.1c76db42.js.map": "/Youssef_Portfolio/static/js/main.1c76db42.js.map"
   },
   "entrypoints": [
-    "static/css/main.f44f157a.css",
-    "static/js/main.bc3b5db7.js"
+    "static/css/main.4ea1682e.css",
+    "static/js/main.1c76db42.js"
   ]
 }
