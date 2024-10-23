@@ -25,6 +25,7 @@ import sharek from "./Imgs/sharek.png";
 import eskan from "./Imgs/eskan.png";
 import aboTaleb from "./Imgs/abo-taleb.png";
 import fruit from "./Imgs/fruit.png";
+import levelup from "./Imgs/levelup.png";
 
 const Projects = () => {
   return (
@@ -108,6 +109,26 @@ const Projects = () => {
         className="flex flex-wrap justify-center mx-auto personal-projects-container gap-9"
         style={{ width: "90%" }}
       >
+        <div className="single-personal-projects">
+          <div
+            className="overflow-hidden project-img-container"
+            style={{ width: "100%", height: "60%" }}
+          >
+            <img style={{ width: "100%", height: "100%" }} src={levelup} alt="levelup image" />
+          </div>
+
+          <div className="text-center info-hiding">
+            <h1>LevelUp ESG</h1>
+            <h2>HTML + CSS + JAVASCRIPT + REACT.JS + TAILWIND_CSS</h2>
+            <br />
+            <a target="_blank" href="https://levelupesg.co/">
+              Link
+              <span className="flex justify-center">
+                <AiOutlineGlobal style={{ fontSize: "20px" }} />
+              </span>
+            </a>
+          </div>
+        </div>
         <div className="single-personal-projects">
           <div
             className="overflow-hidden project-img-container"
