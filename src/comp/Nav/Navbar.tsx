@@ -30,7 +30,7 @@ switch(linkname) {
           left: 0,
           behavior: 'smooth'
         })
-    }, 1000);
+    }, 800);
 
     break;
     
@@ -44,7 +44,7 @@ switch(linkname) {
           left: 0,
           behavior: 'smooth'
         })
-    }, 1000);
+    },800);
     break;
     
     case 'certificates':
@@ -64,7 +64,7 @@ switch(linkname) {
             left: 0,
             behavior: 'smooth'
           })
-    }, 1000);
+    }, 800);
 
     break;
     
@@ -78,7 +78,7 @@ switch(linkname) {
             left: 0,
             behavior: 'smooth'
           })
-    }, 1000);
+    }, 800);
     break;
 }
 
