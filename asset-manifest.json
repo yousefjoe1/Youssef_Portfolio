@@ -1,7 +1,8 @@
 {
   "files": {
     "main.css": "/Youssef_Portfolio/static/css/main.4ea1682e.css",
-    "main.js": "/Youssef_Portfolio/static/js/main.1c76db42.js",
+    "main.js": "/Youssef_Portfolio/static/js/main.a2044ca9.js",
+    "static/media/levelup.png": "/Youssef_Portfolio/static/media/levelup.e55e00f085ca237cd4ee.png",
     "static/media/sharek.png": "/Youssef_Portfolio/static/media/sharek.5afbc7ddc2e74629d0d5.png",
     "static/media/weatherapp.png": "/Youssef_Portfolio/static/media/weatherapp.f24cbb27fd2de2d932d3.png",
     "static/media/amazontemp.png": "/Youssef_Portfolio/static/media/amazontemp.65af4a21a6a1d6280ce6.png",
@@ -32,10 +33,10 @@
     "static/media/advice-generator.png": "/Youssef_Portfolio/static/media/advice-generator.6fb90875503dc008677f.png",
     "index.html": "/Youssef_Portfolio/index.html",
     "main.4ea1682e.css.map": "/Youssef_Portfolio/static/css/main.4ea1682e.css.map",
-    "main.1c76db42.js.map": "/Youssef_Portfolio/static/js/main.1c76db42.js.map"
+    "main.a2044ca9.js.map": "/Youssef_Portfolio/static/js/main.a2044ca9.js.map"
   },
   "entrypoints": [
     "static/css/main.4ea1682e.css",
-    "static/js/main.1c76db42.js"
+    "static/js/main.a2044ca9.js"
   ]
 }
