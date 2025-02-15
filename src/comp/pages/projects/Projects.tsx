@@ -48,6 +48,7 @@ const Projects = () => {
               height={"100%"}
               src={fruit}
               alt="project image"
+              loading="lazy"
             />
           </div>
           <div className="text-center info-hiding">
@@ -77,6 +78,7 @@ const Projects = () => {
               height={"100%"}
               src={`https://png.pngtree.com/thumb_back/fh260/background/20220518/pngtree-quiz-game-show-quiz-uncertainty-photo-image_2221079.jpg`}
               alt="project image"
+              loading="lazy"
             />
           </div>
           <div className="text-center info-hiding">
@@ -175,30 +177,7 @@ const Projects = () => {
           </div>
         </div>
 
-        <div className="single-personal-projects">
-          <div
-            className="overflow-hidden project-img-container"
-            style={{ width: "100%", height: "60%" }}
-          >
-            <img
-              style={{ width: "100%", height: "100%" }}
-              src={sharek}
-              alt=""
-            />
-          </div>
 
-          <div className="text-center info-hiding">
-            <h1>Sharek</h1>
-            <h2>HTML + CSS + JAVASCRIPT + REACT.JS + TAILWIND_CSS</h2>
-            <br />
-            <a target="_blank" href="https://sharek-eg.com/">
-              Link
-              <span className="flex justify-center">
-                <AiOutlineGlobal style={{ fontSize: "20px" }} />
-              </span>
-            </a>
-          </div>
-        </div>
       </div>
 
       <h2
@@ -217,6 +196,7 @@ const Projects = () => {
               style={{ width: "100%", height: "100%" }}
               src={aboTaleb}
               alt="Project image"
+              loading="lazy"
             />
           </div>
           <div className="info-hiding">
