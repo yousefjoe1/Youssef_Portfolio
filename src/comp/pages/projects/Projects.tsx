@@ -21,11 +21,11 @@ import shoppingcart from "./Imgs/shoppingcart.png";
 import productlandingpage from "./Imgs/product-landingpage.png";
 import amazoneclone from "./Imgs/amazontemp.png";
 import outlet from "./Imgs/outlet.png";
-import sharek from "./Imgs/sharek.png";
 import eskan from "./Imgs/eskan.png";
 import aboTaleb from "./Imgs/abo-taleb.png";
 import fruit from "./Imgs/fruit.png";
 import levelup from "./Imgs/levelup.png";
+import esg from "./Imgs/esg-website.png";
 
 const Projects = () => {
   return (
@@ -74,22 +74,24 @@ const Projects = () => {
             style={{ width: "100%", height: "60%" }}
           >
             <img
+            className="h-full"
               width={"100%"}
               height={"100%"}
-              src={`https://png.pngtree.com/thumb_back/fh260/background/20220518/pngtree-quiz-game-show-quiz-uncertainty-photo-image_2221079.jpg`}
-              alt="project image"
+              src={esg}
+              alt="project"
               loading="lazy"
             />
           </div>
           <div className="text-center info-hiding">
-            <h1>Quiz</h1>
+            <h1>LevelUp ESG</h1>
             <h2>
               HTML + CSS + JAVASCRIPT + REACT.JS + TYPESCRIPT + TAILWIND_CSS
             </h2>
             <br />
             <a
+            rel="noreferrer"
               target="_blank"
-              href="https://quiz-app-next-js-peach.vercel.app/"
+              href="https://www.levelupesg.co/"
             >
               Link
               <span className="flex justify-center">
