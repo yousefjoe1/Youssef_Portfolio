@@ -26,6 +26,7 @@ import aboTaleb from "./Imgs/abo-taleb.png";
 import fruit from "./Imgs/fruit.png";
 import levelup from "./Imgs/levelup.png";
 import esg from "./Imgs/esg-website.png";
+import depi from "./Imgs/depi project.png";
 
 const Projects = () => {
   return (
@@ -74,7 +75,7 @@ const Projects = () => {
             style={{ width: "100%", height: "60%" }}
           >
             <img
-            className="h-full"
+              className="h-full"
               width={"100%"}
               height={"100%"}
               src={esg}
@@ -89,7 +90,7 @@ const Projects = () => {
             </h2>
             <br />
             <a
-            rel="noreferrer"
+              rel="noreferrer"
               target="_blank"
               href="https://www.levelupesg.co/"
             >
@@ -277,9 +278,24 @@ const Projects = () => {
               </a>
               <a
                 href="https://digitalgym.in/v1/app/pages/ecommerce/memberlist.html"
-                target="_blank"
+                target="_blank" rel="noreferrer"
               >
                 Link10
+              </a>
+            </div>
+          </div>
+        </div>
+        <div className="text-center freeelance-single-project">
+          <img src={depi} alt="Depi project" />
+          <div className="info-hiding">
+            <h1>Depi Project (Shop)</h1>
+            <h2>HTML + CSS + TAILWIND CSS + JAVASCRIPT + REACT.JS + NODE.JS + MONGODB</h2>
+            <div className="flex flex-wrap justify-center">
+              <a href="https://vite-react-chi-jet.vercel.app/" target="_blank" rel="noreferrer">
+                Link
+                <span className="flex justify-center">
+                  <AiOutlineGlobal style={{ fontSize: "20px" }} />
+                </span>
               </a>
             </div>
           </div>
